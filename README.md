@@ -36,3 +36,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Reference
+
+- Icons
+  - [NFT Marketing Consulting](https://www.svgrepo.com/svg/10159/chat)
+  - [NFT Marketing Project Planning](https://www.svgrepo.com/svg/282587/plan)
+  - [NFT Creation & Design](https://www.svgrepo.com/svg/309513/design-ideas)
+  - [NFT Development, Mint & Sale](https://www.svgrepo.com/svg/102180/binary-code)
+- NFTs
+- [PHANTA BEAR](https://opensea.io/assets/ethereum/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/1799)
+- [Refik Anadol](https://feralfile.com/artworks/unsupervised-data-universe-moma-jkn?fromExhibition=unsupervised-sla)
+- [Etherumencer](https://opensea.io/assets/ethereum/0x3b3ee1931dc30c1957379fac9aba94d1c48a5405/67590)
+- [0|\| |•\0(|{ 宇宙遊泳 (on rock spacewalk)](https://opensea.io/assets/ethereum/0x38da695c837bb0ee4aa9f62be0307f3d94003c4b/59)
