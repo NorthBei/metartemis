@@ -30,7 +30,7 @@ function Home() {
   return (
     <>
       <Head>
-        <title>Metartemis | {t('web_subtitle')}</title>
+        <title>{`Metartemis | ${t('web_subtitle')}`}</title>
       </Head>
 
       <div id="top"></div>
