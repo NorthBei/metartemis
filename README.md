@@ -39,13 +39,15 @@ Contact us on [Metartemis](https://metartemis.co/) website to start your NFT con
 Join us on the Metaverse! #WAGMI #ToTheMoon♡
 
 ### Person In charge
-- Website Dev & Design by NorthBei from [Metartemis](https://metartemis.co)
+- Website Dev & Design by NorthBei from [Metartemis](https://metartemis.northbei.io/)
 
 ### Relative Link
-- [Metartemis](https://metartemis.co/)
+- [Metartemis](https://metartemis.northbei.io/)
 - DigiAsia 2022 數位亞洲大會
   - [DigiAsia 2022 數位亞洲大會官方網站](http://digiasia.org.tw/2022/?lang=zh)
   - [DigiAsia現場直擊！從線上展覽大廳到線下實體策展，看在地新創團隊如何發揮技術力，展現Web3 Rhapsody狂想曲的魔力](https://www.bnext.com.tw/article/72920/dnft)
+  - [創新、多元、整合，新創技術百家爭鳴，Web3商模起航](https://www.bnext.com.tw/article/72572/-digiasiay-2022)
+  - [公會活動Web3 浪潮下的娛樂體驗](https://www.taaa.org.tw/active/article/4588)
 
 ### Screenshots/Film
 
@@ -53,8 +55,7 @@ Join us on the Metaverse! #WAGMI #ToTheMoon♡
 
 | PC | Moblie |
 |-|-|
-|![image](https://github.com/NorthBei/metartemis/assets/15665709/85385a2f-c42c-4f00-95dc-d059ec4d4e5d)|![metartemis co__lang=en(Pixel 5)](https://github.com/NorthBei/metartemis/assets/15665709/08274d5f-d4e1-4d61-8a0b-6116b8c03825)|
-
+|![Metartemis - 最完整的 NFT 行銷解決方案](https://github.com/user-attachments/assets/0c272dde-49d0-4b00-a10e-8b43b944fdf4)|![metartemis co](https://github.com/user-attachments/assets/afc12e00-4a58-45f3-a29e-4572d2bc44db)|
 
 ## Development Instruction
 
@@ -62,8 +63,8 @@ Join us on the Metaverse! #WAGMI #ToTheMoon♡
 
 |Service|Version|
 |-|-|
-|Node.js|v18.16.0|
-|yarn| v1.22.19|
+|Node.js|v20.12.2|
+|pnpm| v10.6.4|
 
 ### Getting Started
 
@@ -71,15 +72,15 @@ Join us on the Metaverse! #WAGMI #ToTheMoon♡
 Install packages & Run the development server:
 
 ```zsh
-yarn install
-yarn dev
+pnpm install
+pnpm dev
 ```
 
 ### Project setup
 
 Install all package
 ```zsh
-yarn install
+pnpm install
 ```
 
 ### Start Development
@@ -87,7 +88,7 @@ yarn install
 Run development web server at http://localhost:3000 for development
 
 ```zsh
-yarn dev
+pnpm dev
 ```
 
 ### Lint all files
@@ -95,7 +96,7 @@ yarn dev
 Run lint for all `.js`, `.ts`, `.tsx` files by eslint
 
 ```zsh
-yarn lint
+pnpm lint
 ```
 
 ### Build Production (Next.js SSG)
@@ -104,7 +105,7 @@ Run below command to build this project by Next.js Static Site Generation (SSG) 
 In Next.js 13, we could run `next build` directly, instead of `next export` after seting up `next.config.js`.
 
 ```zsh
-yarn build
+pnpm build
 ```
 
 ### Testing Built Result
@@ -112,7 +113,7 @@ yarn build
 Run local static file server for testing built result at http://localhost:8080
 
 ```zsh
-yarn serve
+pnpm serve
 ```
 
 ## Reference
