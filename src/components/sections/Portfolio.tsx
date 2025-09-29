@@ -7,61 +7,31 @@ import { useTranslation } from 'next-export-i18n';
 
 import Section from '@/layout/Section';
 
-const Customer_List = [
-  {
-    image: {
-      src: '/images/portfolio/DigiAsia2022.png',
-      alt: 'DigiAsia 2022 數位亞洲大會',
-    },
-    title: 'DigiAsia 2022 數位亞洲大會',
-    subtitle: 'Digiasia 2022',
-    description:
-      '今年DigiAsia大會打出「Web3 Rhapsody 狂想曲」作為主題，至於NFT的設計與發行則由同為網頁設計的新創團隊Metartemis操刀，共計有1,080款的變化將針對與會者進行空投紀念NFT，讓與會者也能透過擁有NFT、體驗其中的過程成為今年展會生態系的一份子。',
-    links: [
-      {
-        text: '官方網站',
-        url: 'http://digiasia.org.tw/2022/',
-      },
-      {
-        text: '媒體報導',
-        url: 'https://www.bnext.com.tw/article/72920/dnft',
-      },
-    ],
-    tags: ['NFT顧問服務', 'NFT設計與創作', 'NFT開發/鑄造與販售'],
-  },
-  {
-    image: {
-      src: '/images/portfolio/ZombieClub.jpg',
-      alt: 'Zombie Club 3D NFT',
-    },
-    title: 'Zombie Club',
-    subtitle: 'Zombie Club 3D NFT Lanch',
-    description: '打造3D NFT Lanch Site',
-    links: [
-      {
-        text: '官方網站',
-        url: 'https://zombieclub.io/',
-      },
-      {
-        text: '媒體報導',
-        url: 'https://www.bnext.com.tw/article/72920/dnft',
-      },
-    ],
-    tags: ['NFT顧問服務', 'NFT開發/鑄造與販售'],
-  },
-];
+type Item = {
+  image: {
+    src: string;
+    alt: string;
+  };
+  title: string;
+  description: string;
+  links: {
+    text: string;
+    url: string;
+  }[];
+  tags: string[];
+};
 
 function Portfolio() {
   const { t } = useTranslation();
 
   return (
-    <Section id="support_chain" title="案例分享">
+    <Section id="portfolio" title={t('portfolio_title')}>
       <Grid justifyContent="center" container>
-        {Customer_List.map((customer) => {
+        {t('portfolio_list').map((item: Item) => {
           return (
             <Grid
               item
-              key={customer.title}
+              key={item.title}
               md={6}
               sm={10}
               xs={12}
@@ -70,8 +40,8 @@ function Portfolio() {
             >
               <Stack>
                 <img
-                  src={customer.image.src}
-                  alt={customer.image.alt}
+                  src={item.image.src}
+                  alt={item.image.alt}
                   style={{
                     width: '100%',
                     height: 'auto',
@@ -83,10 +53,10 @@ function Portfolio() {
                   textAlign="center"
                   my={3}
                 >
-                  {customer.title}
+                  {item.title}
                 </Typography>
                 <Typography variant="body1" textAlign="left" gutterBottom>
-                  {customer.description}
+                  {item.description}
                 </Typography>
                 <Stack
                   direction="row"
@@ -96,7 +66,7 @@ function Portfolio() {
                   sx={{ width: '100%', flexWrap: 'wrap' }}
                   useFlexGap
                 >
-                  {customer.tags.map((tag) => {
+                  {item.tags.map((tag) => {
                     return <Chip key={tag} label={tag} variant="outlined" />;
                   })}
                 </Stack>
@@ -107,9 +77,14 @@ function Portfolio() {
                   sx={{ width: '100%' }}
                   useFlexGap
                 >
-                  {customer.links.map((link) => {
+                  {item.links.map((link) => {
                     return (
-                      <Button key={link.url} href={link.url}>
+                      <Button
+                        key={link.url}
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {link.text}
                       </Button>
                     );

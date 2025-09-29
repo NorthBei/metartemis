@@ -12,7 +12,7 @@ import ScrollTop from '@/components/ScrollTop';
 import ContactUs from '@/components/sections/ContactUs';
 import Fold from '@/components/sections/Fold';
 import Partnership from '@/components/sections/Partnership';
-// import Portfolio from '@/components/sections/Portfolio';
+import Portfolio from '@/components/sections/Portfolio';
 import Service from '@/components/sections/Service';
 import SupportChain from '@/components/sections/SupportChain';
 import Team from '@/components/sections/Team';
@@ -48,11 +48,11 @@ function Home() {
         <Team />
         <Divider />
         {/* ----- */}
-        <Yota />
+        <Portfolio />
         <Divider />
         {/* ----- */}
-        {/* <Portfolio />
-        <Divider /> */}
+        <Yota />
+        <Divider />
         {/* ----- */}
         <Partnership />
         <Divider />

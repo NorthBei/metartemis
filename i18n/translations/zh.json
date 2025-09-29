@@ -3,6 +3,7 @@
   "web_subtitle": "最完整的 NFT 行銷解決方案",
   "nav_button_service": "服務內容",
   "nav_button_support_chain": "支援公鏈",
+  "nav_button_portfolio": "專案與報導",
   "nav_button_team": "團隊陣容",
   "nav_button_yoda": "尤達大師",
   "nav_button_partnership": "合作夥伴",
@@ -29,6 +30,84 @@
   "team_item_3_subtitle": "區塊鏈與智能合約開發者",
   "team_item_4_title": "機師長",
   "team_item_4_subtitle": "知名科技巨頭後端工程師",
+  "portfolio_title": "專案與報導",
+  "portfolio_list": [
+    {
+      "image": {
+        "src": "/images/portfolio/DigiAsia2022.png",
+        "alt": "DigiAsia 2022 數位亞洲大會"
+      },
+      "title": "DigiAsia 2022 數位亞洲大會",
+      "description": "今年DigiAsia大會以「Web3 Rhapsody 狂想曲」為主題，NFT設計與發行由新創團隊Metartemis負責，共計推出1,080種獨特變化，並空投給所有與會者。透過收藏與互動，參加者不僅能體驗NFT流程，更能真正融入展會生態系，成為其中的一份子。",
+      "links": [
+        {
+          "text": "作品連結",
+          "url": "http://digiasia.org.tw/2022/"
+        }
+      ],
+      "tags": ["NFT顧問服務", "NFT設計與創作", "NFT開發/鑄造與販售"]
+    },
+    {
+      "image": {
+        "src": "/images/portfolio/Web3商模起航.jpg",
+        "alt": "Web3 Baby NFT義賣與Avatars，掀起最潮話題"
+      },
+      "title": "Web3 Baby NFT義賣與Avatars，掀起最潮話題",
+      "description": "臺灣團隊參與本屆DigiAsia大會，展現前所未有的特色。OSENSE結合3D與XR技術打造元宇宙展間，並以NFT作為入場憑證，讓收藏與互動兼具。Metartemis則負責NFT設計與發行，鏈結智能區塊鏈，帶來創新的票券體驗，成功引領本屆Web3生態系的話題焦點。",
+      "links": [
+        {
+          "text": "報導連結",
+          "url": "https://www.bnext.com.tw/article/72572/-digiasiay-2022"
+        }
+      ],
+      "tags": ["NFT顧問服務", "NFT設計與創作", "Web3應用開發"]
+    },
+    {
+      "image": {
+        "src": "/images/portfolio/DigiAsia現場直擊.jpg",
+        "alt": "DigiAsia現場直擊！從線上展覽大廳到線下實體策展，看在地新創團隊如何發揮技術力，展現Web3 Rhapsody狂想曲的魔力"
+      },
+      "title": "DigiAsia現場直擊！看在地新創團隊如何發揮技術力，展現Web3 Rhapsody狂想曲的魔力",
+      "description": "DigiAsia 2022以「Web3 Rhapsody 狂想曲」為主軸，自然少不了NFT相關應用。NFT設計與發行由新創團隊Metartemis承擔，設計超過1,080款獨特版本，並透過空投方式提供給與會者。藉由這項安排，參與者不僅能獲得收藏價值，更能完整體驗Web3的應用場景。",
+      "links": [
+        {
+          "text": "報導連結",
+          "url": "https://www.bnext.com.tw/article/72920/dnft"
+        }
+      ],
+      "tags": ["NFT顧問服務", "NFT設計與創作", "Web3應用開發"]
+    },
+    {
+      "image": {
+        "src": "/images/portfolio/Web3浪潮下的娛樂體驗.jpg",
+        "alt": "公會活動Web3 浪潮下的娛樂體驗"
+      },
+      "title": "公會活動Web3 浪潮下的娛樂體驗",
+      "description": "DigiAsia 2022 結合NFT與元宇宙概念，展現多元創新的樣貌。Metartemis設計的1,080款DigiBaby NFT空投給與會者，並持續提供賦能。活動更與HTC VIVE ORIGINALS合作，邀請貴賓體驗BEATDAY全息演唱會，欣賞美秀集團的創新演出，讓虛擬與現實完美融合，創造沉浸式娛樂體驗。",
+      "links": [
+        {
+          "text": "報導連結",
+          "url": "https://www.taaa.org.tw/active/article/4588"
+        }
+      ],
+      "tags": ["NFT顧問服務", "NFT設計與創作", "Web3應用開發"]
+    },
+    {
+      "image": {
+        "src": "/images/portfolio/ZombieClub.jpg",
+        "alt": "Zombie Club 3D NFT"
+      },
+      "title": "Zombie Club",
+      "description": "HTC VIVE 旗下品牌 VIVE ORIGINALS 宣布與時尚雜誌及余文樂NFT「ZombieClub」合作，共同打造BEATDAY元宇宙《NFT喪屍派對 feat. ZombieClub》。觀眾能化身NFT角色進入虛擬派對，享受沉浸式互動與全新娛樂體驗，開啟前所未有的數位娛樂時代。",
+      "links": [
+        {
+          "text": "作品連結",
+          "url": "https://zombieclub.io/"
+        }
+      ],
+      "tags": ["NFT顧問服務", "Web3應用開發"]
+    }
+  ],
   "yoda_title": "尤達大師",
   "partnership_title": "合作夥伴",
   "contact_title": "聯絡我們",

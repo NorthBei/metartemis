@@ -4,6 +4,7 @@
   "nav_button_service": "Service",
   "nav_button_support_chain": "Support Chain",
   "nav_button_team": "Team",
+  "nav_button_portfolio": "Portfolio",
   "nav_button_yoda": "Yoda",
   "nav_button_contact": "Contact Us",
   "nav_button_partnership": "In partnership with",
@@ -29,6 +30,84 @@
   "team_item_3_subtitle": "Blockchain & Smart Contract Developer",
   "team_item_4_title": "Chief Engineer",
   "team_item_4_subtitle": "Tech EC Giants Back-End Developer",
+  "portfolio_title": "Projects & News",
+  "portfolio_list": [
+    {
+      "image": {
+        "src": "/images/portfolio/DigiAsia2022.png",
+        "alt": "DigiAsia 2022 Conference"
+      },
+      "title": "DigiAsia 2022 Conference",
+      "description": "DigiAsia 2022 adopted the theme “Web3 Rhapsody.” The NFT design and issuance were led by the startup Metartemis, delivering 1,080 unique variations distributed to participants. By collecting and interacting with these NFTs, attendees not only experienced the process firsthand but also became part of the conference ecosystem.",
+      "links": [
+        {
+          "text": "Project Link",
+          "url": "http://digiasia.org.tw/2022/"
+        }
+      ],
+      "tags": ["NFT Consulting", "NFT Design & Creation", "NFT Development/Minting & Sales"]
+    },
+    {
+      "image": {
+        "src": "/images/portfolio/Web3商模起航.jpg",
+        "alt": "Web3 Baby NFT Charity Sale and Avatars"
+      },
+      "title": "Web3 Baby NFT Charity Sale and Avatars",
+      "description": "A Taiwan-based team showcased distinctive innovations at DigiAsia. OSENSE combined 3D and XR to create a metaverse exhibition hall, while NFTs served as admission passes that merged collection with interaction. Metartemis handled NFT design and blockchain integration, bringing an inventive ticketing experience that became a highlight of the Web3 ecosystem.",
+      "links": [
+        {
+          "text": "Media Report",
+          "url": "https://www.bnext.com.tw/article/72572/-digiasiay-2022"
+        }
+      ],
+      "tags": ["NFT Consulting", "NFT Design & Creation", "Web3 Application Development"]
+    },
+    {
+      "image": {
+        "src": "/images/portfolio/DigiAsia現場直擊.jpg",
+        "alt": "DigiAsia Onsite Coverage"
+      },
+      "title": "DigiAsia Onsite Coverage: Exploring Web3 Rhapsody",
+      "description": "Centered on the theme “Web3 Rhapsody,” DigiAsia 2022 featured extensive NFT applications. Metartemis designed and issued more than 1,080 unique versions, distributed via airdrop to attendees. This initiative gave participants collectible value while immersing them in practical Web3 scenarios and digital ownership experiences.",
+      "links": [
+        {
+          "text": "Media Report",
+          "url": "https://www.bnext.com.tw/article/72920/dnft"
+        }
+      ],
+      "tags": ["NFT Consulting", "NFT Design & Creation", "Web3 Application Development"]
+    },
+    {
+      "image": {
+        "src": "/images/portfolio/Web3浪潮下的娛樂體驗.jpg",
+        "alt": "Web3 Entertainment Experience"
+      },
+      "title": "Web3 Entertainment Experience",
+      "description": "DigiAsia 2022 integrated NFTs and metaverse concepts to showcase innovative possibilities. Metartemis created 1,080 DigiBaby NFTs airdropped to participants, offering ongoing utilities. In collaboration with HTC VIVE ORIGINALS, guests experienced the BEATDAY holographic concert and Meixiu Group’s performance, blending virtual and real elements into a unique immersive show.",
+      "links": [
+        {
+          "text": "Media Report",
+          "url": "https://www.taaa.org.tw/active/article/4588"
+        }
+      ],
+      "tags": ["NFT Consulting", "NFT Design & Creation", "Web3 Application Development"]
+    },
+    {
+      "image": {
+        "src": "/images/portfolio/ZombieClub.jpg",
+        "alt": "Zombie Club 3D NFT"
+      },
+      "title": "Zombie Club",
+      "description": "HTC VIVE’s content brand VIVE ORIGINALS partnered with a fashion magazine and Edison Chen’s NFT project “ZombieClub” to launch the BEATDAY metaverse event “NFT Zombie Party feat. ZombieClub.” Audiences could embody their NFT avatars inside the virtual party, enjoying immersive interactions and a groundbreaking digital entertainment experience.",
+      "links": [
+        {
+          "text": "Project Link",
+          "url": "https://zombieclub.io/"
+        }
+      ],
+      "tags": ["NFT Consulting", "Web3 Application Development"]
+    }
+  ],
   "yoda_title": "Our Yoda",
   "partnership_title": "In partnership with",
   "contact_title": "Contact Us",
